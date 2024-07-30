@@ -352,7 +352,7 @@ if st.button('Generate Prediction'):
         
         # Loading the model and the dataset 
         
-        model_path = r'ENTER_VALID_PATH'
+        model_path = r'stock_price_prediction_model.h5'
         model = load_model(model_path)    
         
         
